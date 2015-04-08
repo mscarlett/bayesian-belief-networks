@@ -91,7 +91,7 @@ class GBNNode(Node):
         self.argspec = get_args(factor)
 
     def __repr__(self):
-        return '<GuassianNode %s (%s)>' % (
+        return '<GaussianNode %s (%s)>' % (
             self.name,
             self.argspec)
 
